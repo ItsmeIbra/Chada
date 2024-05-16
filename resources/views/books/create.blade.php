@@ -2,7 +2,7 @@
 @section('content')
  
 <div class="card">
-  <div class="card-header">Books Page</div>
+  <div class="card-header">Add a book </div>
   <div class="card-body">
     
      @if(Session::has('success'))

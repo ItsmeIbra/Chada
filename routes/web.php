@@ -34,14 +34,14 @@ Route::get('/student.create',[StudentController::class,'create']
 )->name('student/create');
 Route::post('/student.create',[StudentController::class,'store']
 )->name('student/store');
-// Route::post('/student/{id}', [StudentController::class, 'update'])->name('student.update');
+
 
 Route::resource('/books',BookController::class);
 Route::get('/books.create',[BookController::class,'create']
 )->name('books/create');
 Route::post('/books.create',[BookController::class,'store']
 )->name('books/store');
-// Route::post('/books/{id}', [BookController::class, 'update'])->name('books.update');
+
 
 Route::resource('/info',InfoController::class);
 Route::get('/info.create',[InfoController::class,'create']

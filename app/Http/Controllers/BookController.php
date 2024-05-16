@@ -43,7 +43,7 @@ class BookController extends Controller
         $input["img"] = $filename;
         Book::create($input);
 
-        return redirect()->route('books.index')->with('success', 'New teacher is added successfully!');
+        return redirect()->route('books.index')->with('success', ' A new Book is added successfully!');
     }
 
     
